@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 90vw;
+    height: 90vh;
+    color: rebeccapurple;
+    background-color:white;
+    margin: 30px auto;
+    box-shadow: 10px 2px 10px rgba(40, 82, 82, 0.3);
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    background: purple;
+}
+h1{
+    text-shadow: 2px 3px 4px goldenrod;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#email{
+    margin-bottom: 10px;
+}
+#fullname{
+    margin-bottom: 10px;
+}
+#password{
+    margin-bottom: 10px;
+}
+#confirm{
+    margin-bottom: 10px;
+}
+#phone{
+    margin-bottom: 10px;
+}
+.superform input{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 50px;
+    border:  2px solid goldenrod;
+    margin: auto;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#button{
+    width: 20%;
+    border-radius: 5px;
+    padding: 5px;
+}
